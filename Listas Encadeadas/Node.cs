@@ -1,11 +1,11 @@
-public class Node
+class Node
 {
-    public int Data;
-    public Node Next;
+    private Object item;
+    private Node prox;
 
-    public Node(int data)
+    Node(Object item)
     {
-        Data = data;
-        Next = null;
+        this.item = item;
+        prox = null;
     }
 }
