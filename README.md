@@ -1,5 +1,10 @@
 # Estruturas de Dados em C#
 
+#COLABORADORES
+
+@ulyataides
+@guiga3006
+
 Este repositório contém exemplos de implementação de estruturas de dados em C#. Os tópicos abordados incluem:
 
 - **Listas Encadeadas**
