@@ -1,18 +1,24 @@
-class BTreeNode
+class BTree
 {
-    private int valor;
-    private BTreeNode esq;
-    private BTreeNode dir;
+    private BTreeNode raiz;
 
-    BTreeNode(int valor)
+    private BTreeNode insertr(BTreeNode arvore, int novo)
     {
-        this.valor = valor;
+        BTreeNode aux = null;
+        if (arvore == null)
+        {
+            aux.setValor(novo);
+            return aux;
+        }
+        else if (novo < arvore.getValor())
+            arvore.setEsq(insertr(arvore.getEsq(), novo));
+        else
+            arvore.setDir(insertr(arvore.getDir(), novo));
+        return arvore;
     }
 
-    public void setValor(int valor)...
-    public void setEsq(BTreeNode esq)...
-    public void setDir(BTreeNode dir)...
-    public int getValor();
-    public BTreeNode getEsq();
-    public BTreeNode getDir();
+    public void insertrNo(int novo)
+    {
+        raiz = insertr(raiz, novo);
+    }
 }
