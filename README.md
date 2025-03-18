@@ -30,7 +30,22 @@ Este repositório contém exemplos de implementação de estruturas de dados em 
 # EXECUTE O PROGAMA 
 
 - ./ListaSimples.exe
-  
+
+- ## Aplicação em Jogos
+- **Listas Encadeadas**: Gerenciamento de inventário de itens.
+- **Árvores Binárias**: Sistema de busca de NPCs em um jogo.
+
+- ## Como Contribuir
+- Faça um fork deste repositório.
+- Crie uma branch para sua feature:
+  ```bash
+  git checkout -b minha-feature
+
+  ## Abra um Púll Reques e escreva as suas Alterações
+
+ - git commit -m "Adiciona nova funcionalidade"
+   - git push origin minha-feature
+     
 - ## Recursos Complementares
 - [Vídeo sobre Listas Encadeadas](https://www.youtube.com/watch?v=biTMaMxWLRc&list=PLqJK4Oyr5WSgPpLg-lZJfJZN0DQ5bwrfP)
 - [Artigo sobre Árvores Binárias](https://rafaelherbert.github.io/arvores-binarias-em-c/)
