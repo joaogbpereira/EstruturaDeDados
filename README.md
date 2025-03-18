@@ -1,26 +1,34 @@
-# EstruturaDeDados
+# Estruturas de Dados em C#
 
 Este repositório contém exemplos de implementação de estruturas de dados em C#. Os tópicos abordados incluem:
 
-- Listas Encadeadas
-- Listas Ordenadas
-- Árvores Binárias
+- **Listas Encadeadas**
+- **Listas Ordenadas**
+- **Árvores Binárias**
+
+---
 
 ## Objetivos
+
 - Compreender o funcionamento de cada estrutura de dados.
 - Implementar operações básicas como inserção, exclusão e busca.
 - Aplicar essas estruturas em contextos práticos, como desenvolvimento de jogos.
 
-## Orientações de Estudo
-- Clone este repositório.
-- Compile e execute os exemplos de código.
-- Experimente modificar os códigos e adicionar novas funcionalidades.
-- 
-## Como Executar
+---
+
+## 📚 Orientações de Estudo
+
+1. Clone este repositório.
+2. Compile e execute os exemplos de código.
+3. Experimente modificar os códigos e adicionar novas funcionalidades.
+
+---
+
+## 🚀 Como Executar
+
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/EstruturasDeDados.git
-
 
 ## Compile os arquivos 
 
