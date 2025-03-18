@@ -1,21 +1,15 @@
-public class ListaSimples
+Node buscaNo(Object item)
 {
-    private Node head;
-
-    public void Inserir(int data)
+    int i = 0;
+    Node aux = primeiro;
+    while (aux != null)
     {
-        Node newNode = new Node(data);
-        newNode.Next = head;
-        head = newNode;
-    }
-
-    public void Exibir()
-    {
-        Node current = head;
-        while (current != null)
+        if(aux.getItem() == item)
         {
-            Console.WriteLine(current.Data);
-            current = current.Next;
+            return aux;
         }
+        i++;
+        aux = aux.getProx();
     }
+    return null;
 }
